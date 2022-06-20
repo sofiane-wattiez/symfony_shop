@@ -1,0 +1,14 @@
+<div class="card">
+	<img src="{{ p.mainPicture }}" class="img-fluif" alt="img">
+	<div class="card-body">
+		<h4 class="card-title">{{ p.name }}
+			({{ p.price | amount }})</h4>
+		<span class="badge badge-info">{{ p.category.name }}</span>
+		<p>{{ p.shortDescription }}</p>
+		<a href="{{ path('product_show', { 'category_slug': p.category.slug, 'slug': p.slug }) }}" class="btn btn-primary btn-sm">Détails</a>
+		<a href="{{ path('cart_add', {'id': p.id}) }}" class="btn btn-success btn-sm">Ajouter</a>
+		{% if app.user %}
+			<a href="{{ path('product_edit', {'id': p.id}) }}" class="btn btn-warning btn-sm">Modifier</a>
+		{% endif %}
+	</div>
+</div>
