@@ -1,7 +1,7 @@
 # symfony shop
 
 
-**Warning ! This version is on rework actualy**
+**Warning ! This version is on front-end rework actualy**
 
 `cd symfony`
 
