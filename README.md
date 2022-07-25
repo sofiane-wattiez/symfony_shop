@@ -3,7 +3,7 @@
 
 **Warning ! This version is on front-end rework actualy**
 
-`cd symfony`
+`cd symfony_shop`
 
 ## INSTALL & UPDATE DEPENDENCIES
 
