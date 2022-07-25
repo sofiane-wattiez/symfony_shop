@@ -7,7 +7,7 @@
 
 ## INSTALL & UPDATE DEPENDENCIES
 
-`composer install && composer update @latest`
+`composer install && composer update`
 
 ## CREATE BDD
 
